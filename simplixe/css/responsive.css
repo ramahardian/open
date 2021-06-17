@@ -1,0 +1,121 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author        : Rama Hardian Sidik
+Template Name : Simplixe - Personal Portfolio Landding
+Version       : 1.0 FREE
+* ----------------------------------------------------------------------------------------
+*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+@media only screen and (device-width : 375px) and (device-height : 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio : 3) {}
+@media only screen and (device-width : 812px) and (device-height : 375px) and (orientation: portrait) and (-webkit-device-pixel-ratio : 3) {}
+@media screen and (max-width: 2560px) {}
+@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1366px) {}
+@media screen and (max-width: 1128px) {}
+@media screen and (max-width: 1024px) {
+    #wrap-hero {
+        height: 800px;
+    }
+    #wrap-hero:after {
+        height: 800px;
+    }
+    .inner-herocontent {
+        height: 800px;
+        min-height: unset;
+    }
+    .detail-herowrap h1 { 
+        font-size: 60px; 
+    }
+    .sosmed-home {
+        margin-top: 30px;
+    }
+    .sec-detailherowrap h3 { 
+        font-size: 20px;
+    }
+    .mini-detail p { 
+        font-size: 15px;
+    }
+    .button-link {
+        font-size: 13px;
+    }
+    .wrap-imageabout { 
+        margin: 0 15px;
+    }
+}
+@media (max-width: 999px) {
+    .wrap-imageabout { 
+        margin: 0 0;
+    }
+    .button-menu {
+        display: block;
+    }
+    .navigation-big {
+        display: none;
+    }
+    #header-wrap {
+        padding-bottom: 20px;
+    }
+    .detail-herowrap {
+        text-align: center;
+    }
+    .head-sosmed {
+       display: none;
+    }
+    .sec-detailherowrap p.title-detail {
+        padding-left: 0; 
+        margin-bottom: 40px;
+        display: none;
+    }
+    .sec-detailherowrap {
+        padding-left: 0;
+        text-align: center;
+    }
+    .sec-detailherowrap h3 {
+        font-size: 20px;
+    }
+    .detail-herowrap h1 {
+        font-size: 50px;
+    }
+    .wrap-imageabout {
+        margin-top: 50px;
+    }
+    .big-text {
+        display: none;
+    }
+    .r-side {
+        margin-top: 30px;
+    }
+    .porto-item {
+        width: 50%;
+    }
+    #contact-section:after {
+        width: 100%; 
+        height: 50%;
+    }
+    .item-partner img {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 900px) {
+    .icon-w {
+        position: relative;
+        margin-bottom: 20px;
+        display: block;
+        font-size: 60px;
+    }
+    .inner-detailido {padding-left: 0;}
+}
+@media (max-width: 860px) {}
+@media only screen and (max-width: 699px) {
+    .porto-item {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 580px) {}
+@media (max-width: 480px) {}
+@media (max-width: 360px) {}
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {}
